@@ -1,0 +1,99 @@
+############################ ________________________ ###########################
+
+
+document.querySelector("main")
+
+############################ ________________________ ###########################
+
+// using acces with class
+
+document.querySelector(.maincontent)
+
+############################ ________________________ ###########################
+
+// selecting last item of list .
+document.querySelector("main li:last-child")
+############################ ________________________ ###########################
+
+// all
+document.querySelectorAll("main li")
+############################ ________________________ ###########################
+############################ ________________________ ###########################
+############################ ________________________ ###########################
+############################ ________________________ ###########################
+############################ ________________________ ###########################
+
+// all methods //
+
+document.querySelectorAll("main li").foreach(item=>item.stylebackgroundColor="Red")
+
+/// Accesing All child and changed colour with selecterAll Methods;
+// document.querySelectorAll("main li:last-child").forEach(item=>item.style.backgroundColor="yellow")
+undefined
+document.querySelectorAll("main li:nth-child(3)").forEach(item=>item.style.backgroundColor="yellow")
+undefined
+document.querySelectorAll("main li:nth-child(5)").forEach(item=>item.style.backgroundColor="black")
+undefined
+document.querySelectorAll("main li:nth-child(2)").forEach(item=>item.style.backgroundColor="pink")
+undefined
+document.querySelectorAll("main li:nth-child(6)").forEach(item=>item.style.backgroundColor="purple")
+undefined
+document.querySelectorAll("main li:nth-child(7)").forEach(item=>item.style.backgroundColor="light-blue")
+undefined
+document.querySelectorAll("main li:nth-child(7)").forEach(item=>item.style.backgroundColor="brown") 
+
+
+############################ ________________________ ###########################
+
+//ACCESING ELEMENTS W OLDER METHODS ///
+// document.getElementByClassName("main")
+
+############################ ________________________ ###########################
+
+
+// document.getElementById("everyday")
+
+document.getElementById("try").style.backgroundColor="red" 
+
+
+############################ ________________________ ###########################
+
+// finding class name and changed class name
+
+document.querySelector("h1").className // we found 
+
+/// changed class name 
+
+document.querySelector("h1").className ="new-class"
+
+// classList so usefull
+
+//deleting class
+document.querySelector("article").classList.remove("new-class-signed") 
+
+//
+
+
+document.querySelector("article").classList.replace("new_signed","new-replace") 
+
+// Toggle//
+
+document.querySelector("article").classList.Toggle("new-class-signed") 
+
+
+// attributes //
+
+document.querySelector("article").attributes 
+document.querySelector("article").attributes 
+
+/// Search  has attributes("ne aradigin attributes yaz")
+
+document.querySelector("img").hasAttribute("src)= if true= true, not = false
+
+
+/// Set attributes ///
+
+document.querySelector("article").setAttribute("alt","Adding new attribues") 
+
+
+!!!!!!!!! Add Doom Elements ~~~~~~~~~
